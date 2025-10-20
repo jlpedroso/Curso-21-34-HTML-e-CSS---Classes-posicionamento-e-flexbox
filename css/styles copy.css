@@ -4,12 +4,12 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #4B0007;
-    color: #ffffff;
+    background-color: black;
+    color: #F6F6F6;
 }
 
 .titulo-destaque {
-    color: #D30015;
+    color: #22D4FD;
 }
 
 .apresentacao {
@@ -42,14 +42,14 @@ body {
 }
 
 .apresentacao__links__link {
-    background-color: #D30015;
+    background-color: #22D4FD;
     width: 200px;
     text-align: center;
     font-size: 22px;
     border-radius: 16px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: "montserrat", sans-serif;
     font-weight: 600;
 }
