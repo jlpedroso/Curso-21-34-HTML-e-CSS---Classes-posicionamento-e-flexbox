@@ -13,6 +13,7 @@ Incluidas para facilitar futuras alterações de tema */
     --cor-hover: #272727;
     --cor-texto-hover: #22D4FD; 
     */
+    
     /*minhas cores
     #B6231E
     #8B322E
@@ -28,6 +29,9 @@ Incluidas para facilitar futuras alterações de tema */
     --cor-texto-secundaria: #000000; 
     --cor-hover: #8B322E;
     --cor-texto-hover: #000000; 
+    
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
 body {
@@ -47,7 +51,7 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: "montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 20px;
     font-weight: 600;
     color: var(--cor-primaria);
@@ -73,7 +77,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
     font-size: 34px;
         /* border: 2px solid #ff00ff; */
 }
@@ -87,8 +91,8 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-   font-family: "Montserrat", sans-serif;
-   font-size: 22px;
+   font-family: var(--fonte-secundaria);
+   font-size: 18px;
 }
 
 .apresentacao__links {
@@ -100,8 +104,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    color: var(--cor-texto);
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 22px;
 }
@@ -112,12 +115,12 @@ body {
     gap: 16px;
     width: 378px;
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
     border-radius: 8px;
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-texto);
-    font-family: "montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 600;
     border: 2px solid var(--cor-primaria);
 }
@@ -132,7 +135,7 @@ body {
     color: var(--cor-texto-secundaria);
     padding: 18px;
     text-align: center;
-    font-family: "montserrat", sans-serif;
-    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
     font-weight: 400;
 }
